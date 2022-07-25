@@ -3,9 +3,9 @@ resource "azurerm_resource_group" "test" {
   location = var.resource_group_location
 }
 
-tags = {
-  environment = "dev"
-}
+# tags = {
+#   environment = "dev"
+# }
 
 
 # Create virtual network
